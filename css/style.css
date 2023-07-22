@@ -1,0 +1,397 @@
+@font-face {
+    font-family: "RobotoBold";
+    src: url(../assets/img/icons/fonts/NotoSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: "RobotoMed";
+    src: url(../assets/img/icons/fonts/NotoSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: "RobotoReg";
+    src: url(../assets/img/icons/fonts/NotoSans-Regular.ttf);
+}
+
+
+/* Default Stylings */
+
+body {
+    padding: 2% 5%;
+    background-color: aliceblue;
+    animation-name:example;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes example {
+    0% {
+        background-color: rgba(250, 235, 215,0.2) ;
+    }
+    25% {
+        background-color:rgba(240, 232, 221, 0.49) ;
+    }
+    50% {
+        background-color: rgba(188, 233, 218, 0.488);
+        
+    }
+    100% {
+        background-color:azure;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p1 {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Global classes Stylings */
+
+.flex {
+    display: flex;
+
+}
+
+.just-cntr {
+    justify-content: center;
+}
+
+.just-even {
+    justify-content: space-evenly;
+}
+.just-btwn {
+    justify-content: space-between;
+}
+.just-arnd {
+    justify-content: space-around;
+}
+.align-cntr{
+    align-items: center;
+}
+
+.line {
+    line-height: 1.5rem;
+}
+
+.flex_w {
+    flex-wrap: wrap;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.container {
+    padding: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+header {
+    background-color:rgb(150,140,200);
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color:white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .brandLogo {
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 3rem;
+  }
+  
+  .brandLogo span {
+    color: #00ABAE; 
+    font-size: 1.5rem;
+  }
+  
+  .navbarMenu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+.navbarMenu li {
+    margin: 0 1rem;
+  }
+  
+.navbarMenu a {
+    text-decoration: none;
+    color: #333333; 
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+.navbarMenu a:hover {
+    color:#333333;
+    border-bottom: 1px solid black;
+    bo
+}
+
+.hero {
+    width:100% ;
+    padding:1vw 4vw;
+}
+
+.rightpart img {
+    width:70%;
+    float: right;
+    border-radius: 50%;
+    border: 5px solid #00ABAE;
+    margin-right: 4rem;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    filter: brightness(100%);
+    
+
+}
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5vw;
+}
+
+.desc {
+    font-size: 1.8rem;
+    margin-bottom: 1.5vw;
+}
+
+button {
+    padding:3% 3%;
+    background-color: #00ABAE;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: "Avenir";
+    font-weight: 800;
+    border-radius:0.3rem;
+    margin-right: 1rem;
+    transition: transform 0.3 ease;
+    
+
+}
+
+
+button:hover {
+    transform:translateY(-5px);
+    
+}
+
+
+
+
+
+.description {
+    padding: 2vw 3vw;
+}
+
+.description h2 {
+    margin-bottom: 1vw;
+}
+
+.leftpart .desc {
+    font-family: "RobotoReg";
+    font-style: italic;
+}
+
+.about h1 {
+    margin: auto;
+    width: 10px;
+}
+
+#about h1 {
+	text-align: center;
+}
+img.skill-item {
+    width:5rem;
+    justify-content: space-around;
+    padding:0.1%;
+    border-radius: 1px;
+    
+}
+
+#about {
+    margin-bottom: 4vw;
+}
+
+#about .work h2 {
+   font-family: 'Roboto';
+   padding: 1rem 0rem;
+   margin-right:6rem;
+   font-size: 1.2rem;
+   line-height: 1.5rem;
+   color: #575757;
+}
+
+#skill .skill-head h1 {
+    padding: 3rem 0rem;
+    font-family: 'Avenir';
+    align-items: left;
+  }
+  #project .project-head h1 {
+    padding: 3rem 0rem;
+    font-family: 'Avenir';
+  }
+#project {
+    color:#575757;
+  }
+
+#para {
+    font-size: 1.9rem;
+    font-family: 'Avenir';
+    font-weight: 500;
+    padding: 1rem 0rem;
+    margin-bottom: 2rem;
+}
+
+
+.first {
+    margin-bottom: 2rem;
+}
+
+
+.new {
+    margin-left: 1rem;
+}
+
+
+#project .proj-item .project-des h2 {
+    padding:1rem 0rem;
+    font-family: 'Roboto';
+    font-size:1.3rem;
+}
+
+#project .proj-item .project-des .btn button {
+    margin-top: 2rem;
+    padding: 1% 1%;
+}
+
+#project .proj-item .project-scst img.proj-pic {
+    width:80%;
+    height: 100%;
+    border-radius: 10px;
+    margin-right: 50vw;
+    margin-left: 0.5vw;
+    margin-top: 5vh;
+}
+
+main #project .proj-item .project-des {
+    margin-right: 2rem;
+}
+
+.btn button a {
+    color: white;
+}
+
+
+#project .proj-item {
+    width:100%;
+    margin-bottom: 4rem;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact h1 {
+    padding:2rem 0rem;
+    font-family: 'Roboto';
+}
+
+#contact .social-icons img.git {
+    width: 3rem;
+    padding: 1rem 0rem;
+}
+
+
+footer#contact .social-icons img.link {
+
+    width: 2.2rem;
+    padding: 1.3rem 0rem;
+    margin-left: 1rem;
+
+}
+
+#project .proj-item .project-des .btn button {
+    padding:3% 3%;
+    background-color: #00ABAE;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: "Avenir";
+    font-weight: 800;
+    border-radius:0.3rem;
+    margin-right: 1%;
+    
+}
+
+
+.last {
+    height: 4rem;
+}
+
+.third {
+    
+    height: 4rem;
+    width: 5rem;
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width:800px) {
+    
+    
+    
+    
+    .container .hero {
+        flex-direction: column-reverse;
+    }
+
+    #about .work {
+        
+        flex-direction: column;
+    }
+
+    main #project .proj-item {
+        flex-direction: column-reverse;
+    }
+
+    
+
+}
+
+
+ 
+  
