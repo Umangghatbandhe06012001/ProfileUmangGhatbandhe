@@ -22,7 +22,7 @@ body {
     animation-name:example;
     animation-duration: 20s;
     animation-iteration-count: infinite;
-    
+   
 }
 
 @keyframes example {
@@ -211,7 +211,10 @@ button:hover {
 }
 
 
-
+.sp {
+    margin-top: 2rem;
+    padding-left: 1rem;
+}
 
 
 .description {
